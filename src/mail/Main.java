@@ -22,6 +22,7 @@ public class Main {
                         "otabekbaratov111@gmail.com",
                         "kpoeohspaqglrzph"
                 );
+
             }
         };
         Session session =  Session.getInstance(properties, authenticator);
@@ -33,4 +34,5 @@ public class Main {
         Transport.send(message);
 
     }
+
 }
